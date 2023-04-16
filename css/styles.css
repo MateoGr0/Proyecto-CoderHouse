@@ -229,8 +229,7 @@ section h2{
 @media(min-width:600px) and (max-width:1200px){
     h1{
         color: black;
-        visibility: hidden;
-        
+        visibility: hidden;  
     }
     
     .nav{
@@ -244,11 +243,17 @@ section h2{
         align-items: center;
     }
 
-    .contenedor-img {
-        max-width: 100%;
-
+    .noticia-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .contenedor-img{
+        max-width: 50%;
+        align-items: center;
+
+    }
 
     .btn{
         border: 3px solid white;
@@ -258,7 +263,8 @@ section h2{
     
 
 
-    /* == Seccion Pilotos == */
+
+/* == Seccion Pilotos == */
 
     .contenedor-pilotos{
         display: grid;
@@ -284,7 +290,6 @@ section h2{
     .img-escuderia{
         width: 100%;
     }
-
 
 }
 

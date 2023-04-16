@@ -189,6 +189,37 @@ section h2{
     flex-direction: column;
 }
 
+/* === Seccion Escuderias === */
+
+.contenedor-escuderias{
+    text-align: center
+}
+
+.escuderia{
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 2%;
+}
+
+.info-escuderia{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    
+}
+
+.img-escuderia{
+    width: 70%;
+    
+}
+
+
+
+
+
+
+
+
 /*========== Tablets ============ */
 
 
@@ -239,7 +270,24 @@ section h2{
         padding: 10px 10px;  
         }
 
+        /* == Seccion Escuderias ===  */
+    .contenedor-escuderias{
+        display: grid;
+        grid-template-columns: repeat(2,1fr)
+    }
+
+    .escuderia{
+        margin: 30px;
+        padding: 10px 10px;  
+        }
+
+    .img-escuderia{
+        width: 100%;
+    }
+
+
 }
+
 
 
 
@@ -338,12 +386,30 @@ section h2{
         padding: 5px;
         
     }
-
     
+        /* == Seccion Escuderias ===  */
+    .contenedor-escuderias{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 15px;   
+        gap: 25px;
+        
+    }
+
+    .escuderia{
+        margin: 30px;
+        padding: 10px 10px;  
+        }
+
+        .img-escuderia{
+            width: 100%;
+        }
 
 
-
-
+    .william{
+        grid-row: 4;
+        grid-column: 2;
+    }
 
 
 

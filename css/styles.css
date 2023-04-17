@@ -213,9 +213,44 @@ section h2{
     
 }
 
+/* === Seccion Calendario == */
+
+.contenedor-gran-premio{
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem  ;
+}   
+
+.gran-premio{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.37);
+    border-radius: 10%;
+    padding: 10px;
+}
 
 
 
+.importante{
+    font-weight: bold;
+}
+
+
+.contenedor-bandera img{
+    padding: 10px;
+    width: 150px;   
+}
+
+.fecha-gp{
+    padding: 5px;
+}
+.info-gp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
 
 
 
@@ -290,6 +325,19 @@ section h2{
     .img-escuderia{
         width: 100%;
     }
+
+
+    /* == Seccion Calendario == */
+
+    .contenedor-gran-premio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+
+
+
 
 }
 
@@ -416,7 +464,12 @@ section h2{
         grid-column: 2;
     }
 
+        /* == Seccion Calendario == */
 
+        .contenedor-gran-premio{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
 
 }
 

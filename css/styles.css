@@ -253,6 +253,29 @@ section h2{
 }
 
 
+/* == Seccion Videos == */
+
+.contenedor-videos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* .titulo-video{
+    font-size: 16px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.cont-video{
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+    padding: 10px;
+} */ 
+
 
 
 /*========== Tablets ============ */
@@ -335,6 +358,25 @@ section h2{
     }
 
 
+
+    /* == Seccion Videos == */
+
+
+/* 
+    .titulo-video{
+        font-size: 16px;
+        margin: 3px;
+        padding: 5px;
+    }
+    
+    .cont-video{
+        width: 100%;
+    }
+    
+    .video{
+        width: 80%;
+        padding: 5px 20px;
+    } */
 
 
 
@@ -470,6 +512,30 @@ section h2{
             display: grid;
             grid-template-columns: repeat(4,1fr);
         }
+
+
+
+
+    /* == Seccion Videos == */
+    
+
+    /* .titulo-video{
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    .cont-video{
+        width: 100%;
+        
+    }
+    
+    .video{
+        width: 50%;
+        
+        padding: 5px 20px;
+    } */
+
+
 
 }
 

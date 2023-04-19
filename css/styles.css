@@ -145,45 +145,77 @@ section h2{
 
 .red-bull{
     border: 3px solid darkblue;
+    
 }
-
+.red-bull:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px darkblue;
+}
 .ferrari{
     border: 3px solid red;
+}
+.ferrari:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px red;
 }
 
 .mercedes{
     border: 3px solid black;
+    
 }
-
+.mercedes:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px black;
+}
 .aston-martin{
     border: 3px solid darkgreen;
 }
-
-.alpine{
-    border: 3px solid lightblue;
+.aston-martin:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px darkgreen;
 }
-
+.alpine{
+    border: 3px solid rgb(5, 172, 228);
+}
+.alpine:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px  rgb(5, 172, 228);
+}
 .alfa-romeo{
     border: 3px solid darkred;
 }
-
-.alpha-tauri{
-    border: 3px solid darkgrey ;
+.alfa-romeo:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px darkred;
 }
-
+.alpha-tauri{
+    border: 3px solid rgb(54, 51, 85) ;
+}
+.alpha-tauri:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px  rgb(54, 51, 85);
+}
 .haas{
     border: 3px solid silver;
 }
-
+.haas:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px silver;
+}
 .mclaren{
     border: 3px solid orange;
 }
-
-
+.mclaren:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px orange;
+}
 .william{
     border: 3px solid blue;
 }
-
+.william:hover{
+    transition: .7s;
+    box-shadow: 0px 15px 25px blue;
+}
 .info_piloto{
     display: flex;
     flex-direction: column;
@@ -494,6 +526,7 @@ section h2{
     .escuderia{
         margin: 30px;
         padding: 10px 10px;  
+        
         }
 
         .img-escuderia{

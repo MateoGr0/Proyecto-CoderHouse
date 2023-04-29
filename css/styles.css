@@ -83,13 +83,28 @@ h2 {
     font-size: 1.2rem;
   }
   .nav .nav-list .nav-item .btn {
-    border: 3px solid white;
-    padding: 10px 10px;
-    border-radius: 10px;
+    color: white;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-decoration: none;
+  }
+  .nav .nav-list .nav-item .btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.2s ease-in-out;
   }
   .nav .nav-list .nav-item .btn:hover {
-    background-color: white;
-    color: rgb(223, 6, 6);
+    color: rgb(255, 255, 255);
+  }
+  .nav .nav-list .nav-item .btn:hover::after {
+    width: 100%;
   }
 }
 .footer {

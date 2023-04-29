@@ -66,12 +66,27 @@
             .nav-item{
                 font-size: 1.2rem;
                 .btn{
-                    border: 3px solid white;
-                    padding:10px 10px;
-                    border-radius: 10px;
-                    &:hover{
+                    color: white;
+                    display: block;
+                    height: 50px;
+                    line-height: 50px;
+                    position: relative;
+                    text-decoration: none;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 0;
+                        height: 2px;
                         background-color: white;
-                        color:  rgb(223, 6, 6);
+                        transition: width 0.2s ease-in-out;
+                    }
+                    &:hover{
+                        color:  rgb(255, 255, 255);
+                    }
+                    &:hover::after{
+                        width: 100%;
                     }
                 }
             }

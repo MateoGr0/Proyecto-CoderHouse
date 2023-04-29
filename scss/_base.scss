@@ -1,0 +1,22 @@
+$borde-noticia: 3px solid black;
+$MQ-tablet: (min-width:600px) and (max-width:1200px);
+
+
+
+@font-face{
+    font-family:"Blod";
+    src: url(../fonts/tipografia-formula.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family:"Blod";
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: underline;
+}

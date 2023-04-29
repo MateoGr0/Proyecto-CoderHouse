@@ -1,0 +1,10 @@
+.footer{
+    background-color: darkgray;
+    .contenedor-iconos-footer{
+        display: flex;
+        gap: 5px;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

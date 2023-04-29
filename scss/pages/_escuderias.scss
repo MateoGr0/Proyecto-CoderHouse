@@ -1,0 +1,128 @@
+section{
+    .contenedor-escuderias{
+        text-align: center;
+        .escuderia{
+            margin: 10px;
+            padding: 10px 10px;
+            border-radius: 2%;
+        }
+        .red-bull{
+            border: 3px solid darkblue;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px darkblue;
+            }
+        }
+        .ferrari{
+            border: 3px solid red;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px red;
+            }
+        }
+        .mercedes{
+            border: 3px solid black;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px black;
+            }
+        }
+        .aston-martin{
+            border: 3px solid darkgreen;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px darkgreen;
+            }
+        }
+        .alpine{
+            border: 3px solid rgb(5, 172, 228);
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px  rgb(5, 172, 228);
+            }
+        }
+        .alfa-romeo{
+            border: 3px solid darkred;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px  rgb(54, 51, 85);
+            }
+        }
+        .alpha-tauri{
+            border: 3px solid rgb(54, 51, 85) ;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px  rgb(54, 51, 85);
+            }
+        }
+        .haas{
+            border: 3px solid silver;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px silver;
+            }
+        }
+        .mclaren{
+            border: 3px solid orange;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px orange;
+            }
+        }
+        .william{
+            border: 3px solid blue;
+            &:hover{
+                transition: .7s;
+                box-shadow: 0px 15px 25px blue;
+            }
+        }
+        .escuderia{
+            .img-escuderia{
+                width: 70%;
+                padding: 5px;
+            }
+            .info-escuderia{
+                display: flex;
+                flex-direction: column;
+                text-align:center;
+                
+            }
+        }
+    }
+}
+
+@media(min-width:600px) and (max-width:1200px){
+    .contenedor-escuderias{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        .escuderia{
+            margin: 30px;
+            padding: 10px 10px;
+            .img-escuderia{
+                width: 100%;
+                padding: 5px;
+                }
+            }
+    }
+}
+
+@media(min-width:1201px){
+    .contenedor-escuderias{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 15px;   
+        gap: 25px;
+        .escuderia{
+            margin: 30px;
+            padding: 10px 10px; 
+            .img-escuderia{
+                width: 100%;
+            }
+        }
+        .posicion{
+            grid-row: 4;
+            grid-column: 2;
+        }
+
+    }
+}
